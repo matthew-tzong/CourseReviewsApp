@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.virginia.sde.reviews.CourseSearchSceneController">
+   <children>
+      <TextField fx:id="subjectField" layoutX="31.0" layoutY="48.0" />
+      <TextField fx:id="courseTitleField" layoutX="421.0" layoutY="48.0" />
+      <TextField fx:id="courseNumberField" layoutX="225.0" layoutY="48.0" />
+      <Text id="subjectField" layoutX="54.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course Subject" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="17.0" />
+         </font>
+      </Text>
+      <Text id="courseTitleField" layoutX="452.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course Title" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="17.0" />
+         </font>
+      </Text>
+      <Text id="courseNumberField" layoutX="245.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course Number" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="searchCourseButton" layoutX="34.0" layoutY="89.0" mnemonicParsing="false" text="Search">
+         <font>
+            <Font name="Footlight MT Light" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="addCourseButton" layoutX="533.0" layoutY="89.0" mnemonicParsing="false" text="Add">
+         <font>
+            <Font name="Footlight MT Light" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="myReviewsButton" layoutX="22.0" layoutY="356.0" mnemonicParsing="false" text="My Reviews">
+         <font>
+            <Font name="Footlight MT Light" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="526.0" layoutY="356.0" mnemonicParsing="false" text="Log Out">
+         <font>
+            <Font name="Footlight MT Light" size="12.0" />
+         </font>
+      </Button>
+      <ListView fx:id="courseListView" layoutX="200.0" layoutY="129.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="messageLabel" layoutX="134.0" layoutY="358.0" prefHeight="17.0" prefWidth="343.0" textFill="#ff0303">
+         <font>
+            <Font name="Book Antiqua" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
