@@ -5,6 +5,7 @@
 **Run CourseReviewsApplication.java with the following VM arguments:**
 - --module-path [PATH_TO_JAVAFX_LIB_FOLDER]
 - --add-modules javafx.controls,javafx.fxml
+*Sample Data given in SQLite file
 
 
 <img width="445" alt="image" src="https://github.com/user-attachments/assets/56cb4c65-8348-4ea7-b0c3-dfbec97c24dd">
